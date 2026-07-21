@@ -18,7 +18,7 @@ class SyncManager {
 
     debugPrint('🚀 SyncManager started');
 
-    _timer = Timer.periodic(const Duration(seconds: 5), (_) => _syncIfNeeded());
+    _timer = Timer.periodic(const Duration(seconds: 1), (_) => _syncIfNeeded());
   }
 
   void stop() {
