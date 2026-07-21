@@ -1,0 +1,29 @@
+name: offline_notes
+description: "Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  hive_ce_flutter: ^2.3.1
+  dio: ^5.9.0
+  uuid: ^4.5.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  hive_ce_generator: ^1.9.2
+  build_runner: ^2.10.1
+
+flutter:
+  uses-material-design: true
